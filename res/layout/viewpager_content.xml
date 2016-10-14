@@ -9,11 +9,11 @@
         android:id="@+id/gridview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:horizontalSpacing="5dp"
+        android:horizontalSpacing="@dimen/gridview_gap"
         android:listSelector="@null"
-        android:numColumns="3"
+        android:numColumns="@string/gridview_column"
         android:scrollbars="none"
         android:stretchMode="columnWidth"
-        android:verticalSpacing="5dp" />
+        android:verticalSpacing="@dimen/gridview_gap" />
 
 </LinearLayout>
